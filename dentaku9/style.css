@@ -1,0 +1,29 @@
+table {
+  height: 600px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(185, 230, 222);
+}
+input {
+  width: 300px;
+  height: 90px;
+  font-size: xx-large;
+  text-align: right;
+  border-radius: 15px;
+
+
+}
+button {
+  width: 90px;
+  height: 90px;
+  font-size: xx-large;
+  border-radius: 20px;
+  box-shadow: 2px 5px gray;
+}
+button:active {
+  box-shadow: none;
+}
+button:hover {
+  background-color: rgb(201, 191, 191);
+}
